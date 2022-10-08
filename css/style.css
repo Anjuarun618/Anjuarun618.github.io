@@ -402,8 +402,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(230, 0, 199, 0.582);
+  background: rgba(121, 121, 121, 0.37);
   padding: 30px;
   width: 100%;
   float: left;
@@ -993,7 +993,6 @@ form label {
 #fh5co-testimonial,
 #fh5co-services,
 #fh5co-started,
-#fh5co-footer,
 #fh5co-event,
 #fh5co-couple-story,
 #fh5co-couple,
@@ -1002,11 +1001,21 @@ form label {
   padding: 7em 0;
   clear: both;
 }
+
+
+#fh5co-footer {
+  padding: 3em 0;
+}
+
+@media screen and (max-width: 768px) { 
+  #fh5co-footer{
+    padding: 3em 0;
+  }
+}
 @media screen and (max-width: 768px) {
   #fh5co-testimonial,
   #fh5co-services,
   #fh5co-started,
-  #fh5co-footer,
   #fh5co-event,
   #fh5co-couple-story,
   #fh5co-couple,
